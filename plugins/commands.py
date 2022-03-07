@@ -18,7 +18,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/+AMHw_K1wvOM3MTU9')
+                InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/mallumoviezchannel')
             ],
             [
                 InlineKeyboardButton('𝙷𝙴𝙻𝙿', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -37,12 +37,12 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/Jd_73_bot?startgroup=true')
+            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/IMDB_RAGNAR_BOT?startgroup=true')
             ],[
             InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Group', url='https://t.me/moviebus2')
+            InlineKeyboardButton('Group', url='https://t.me/mallu_moviez_group')
             ],[
-            InlineKeyboardButton('Channel', url='https://t.me/+AMHw_K1wvOM3MTU9')
+            InlineKeyboardButton('Channel', url='https://t.me/mallumoviezchannel')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
@@ -83,9 +83,9 @@ async def start(client, message):
             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/Jd_73_bot?startgroup=true')
             ],[
             InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Group', url='https://t.me/moviebus2')
+            InlineKeyboardButton('Group', url='https://t.me/mallu_moviez_group')
             ],[
-            InlineKeyboardButton('Channel', url='https://t.me/+AMHw_K1wvOM3MTU9')
+            InlineKeyboardButton('Channel', url='https://t.me/mallumoviezchannel')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
